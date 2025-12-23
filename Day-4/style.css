@@ -1,0 +1,51 @@
+.container{
+    border: 2px solid red;
+    height: 700px;
+}
+.child-1{
+    border: 2px solid green;
+    height: 350px;
+}
+.child-2{
+    border: 2px solid green;
+    height: 350px;
+}
+.sub-child-1{
+    display: inline-block;
+    width: 350px;
+    height: 300px;
+    border: 2px solid darkred;
+    position: relative;
+}
+.sub-child-2{
+    display: inline-block;
+    width: 350px;
+    height: 300px;
+    border: 2px solid darkred;
+    position: relative;
+}
+.sub-child-3{
+    display: inline-block;
+     width: 350px;
+    height: 300px;
+    border: 2px solid darkred;
+    position: relative;
+}
+.sub-child-4{
+    display: inline-block;
+  width: 350px;
+    height: 300px;
+    border: 2px solid darkred;
+    position: relative;
+}
+img{
+    width: 100%;
+}
+h3{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 0px;
+    margin: 0px;
+}
