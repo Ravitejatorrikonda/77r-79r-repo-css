@@ -1,0 +1,26 @@
+.container{
+    width: 300px;
+    height: 300px;
+    /* border: 2px solid; */
+    border-radius: 50%;
+    position: relative;
+    top: 150px;
+    left: 200px;
+    background-color: white;
+}
+.child-1{
+    border: 2px solid red;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+.container-2{
+    border: 2px solid ;
+    background-color: green;
+    width: 800px;
+    height: 400px;
+}
