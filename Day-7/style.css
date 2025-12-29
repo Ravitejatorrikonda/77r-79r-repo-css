@@ -1,0 +1,38 @@
+.container{
+    /* height: 500px; */
+    border: 2px solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    /* align-items: center; */
+}
+.child-1{
+    background-color: lightblue;
+}
+.child-2{
+    order: 1;
+  
+    background-color: lightcoral;
+}
+.child-3{
+    order: 3;
+    background-color: lightgray;
+}
+.child-4{
+  
+    background-color: lightgreen;
+}
+.child-5{
+   
+   order: -1;
+    background-color: lightpink;
+}
+.child{
+    /* width: 0px; */
+    /* flex-basis: 500px;
+    flex-shrink: 0; */
+/*       g  s  basis */
+    /* flex: 1 0 500px; */
+    padding: 10px;
+    font-size: 2rem;
+}
