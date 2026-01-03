@@ -1,0 +1,43 @@
+/* body{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.container {
+    width: 200px;
+    height: 200px;
+    background-color: lightcoral;
+    animation-name: x;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+
+}
+
+@keyframes x {
+    0% {
+        transform: translate(0px);
+        background-color: lightgreen;
+    }
+
+    25% {
+        transform: translate(500px) scale(2);
+        background-color: lightslategray;
+    }
+
+    50% {
+        transform: translate(500px, 500px) rotate(360deg);
+        background-color: deeppink;
+    }
+
+    75% {
+        transform: translate(0px, 500px);
+        background-color: deepskyblue;
+    }
+    100%{
+        transform: skew(60deg);
+    }
+
+
+}
