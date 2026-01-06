@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: deeppink;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.item{
+    font-size: 2rem;
+    color: white;
+    padding: 1rem;
+    flex-shrink: 1;
+}
+i{
+    font-size: 3rem;
+    display: none;
+}
+#menu{
+    display: none;
+}
+
+@media screen and (width < 600px) {
+    i{
+        display: block;
+    }
+    .container{
+        display: none;
+    }
+    #menu:checked~.container{
+        display: block;
+        width: fit-content;
+        background-color: deepskyblue;
+    }
+    
+}
